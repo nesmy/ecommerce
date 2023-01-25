@@ -22,7 +22,16 @@ const Product = () => {
                     <img src={images[selectedImg]} alt="" />
                 </div>
             </div>
-            <div className="right"></div>
+            <div className="right">
+                <h1>Title</h1>
+                <span>$999</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat, doloribus nesciunt qui minus placeat id, 
+                consectetur commodi quis corporis numquam incidunt? Corporis impedit necessitatibus nam laboriosam unde sint accusantium?</p>
+                <div className="quantity">
+                    <button>-</button>
+                    <button>+</button>
+                </div>
+            </div>
         </div>
     )
 }
